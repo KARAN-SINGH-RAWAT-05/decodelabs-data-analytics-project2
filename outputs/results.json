@@ -1,0 +1,605 @@
+{
+  "quality": {
+    "rows": 1200,
+    "columns": 14,
+    "missing_by_column": {
+      "CouponCode": 309
+    },
+    "duplicate_rows": 0,
+    "duplicate_order_ids": 0,
+    "duplicate_tracking": 0,
+    "total_price_mismatch": 0,
+    "date_min": "2023-01-01",
+    "date_max": "2025-06-30",
+    "unique_customers": 1189,
+    "unique_addresses": 655
+  },
+  "describe": [
+    {
+      "column": "Quantity",
+      "count": 1200,
+      "mean": 2.946,
+      "median": 3.0,
+      "std": 1.408,
+      "min": 1.0,
+      "q1": 2.0,
+      "q3": 4.0,
+      "max": 5.0,
+      "skew": 0.028
+    },
+    {
+      "column": "UnitPrice",
+      "count": 1200,
+      "mean": 356.413,
+      "median": 364.21,
+      "std": 197.177,
+      "min": 11.39,
+      "q1": 186.062,
+      "q3": 521.57,
+      "max": 699.93,
+      "skew": -0.027
+    },
+    {
+      "column": "ItemsInCart",
+      "count": 1200,
+      "mean": 5.485,
+      "median": 5.0,
+      "std": 2.282,
+      "min": 1.0,
+      "q1": 4.0,
+      "q3": 7.0,
+      "max": 10.0,
+      "skew": 0.001
+    },
+    {
+      "column": "TotalPrice",
+      "count": 1200,
+      "mean": 1053.968,
+      "median": 823.615,
+      "std": 819.857,
+      "min": 11.39,
+      "q1": 410.52,
+      "q3": 1578.475,
+      "max": 3456.4,
+      "skew": 0.891
+    }
+  ],
+  "outliers": [
+    {
+      "column": "Quantity",
+      "iqr_low": -1.0,
+      "iqr_high": 7.0,
+      "iqr_outliers": 0,
+      "zscore_outliers": 0,
+      "max_abs_z": 1.459
+    },
+    {
+      "column": "UnitPrice",
+      "iqr_low": -317.199,
+      "iqr_high": 1024.831,
+      "iqr_outliers": 0,
+      "zscore_outliers": 0,
+      "max_abs_z": 1.75
+    },
+    {
+      "column": "ItemsInCart",
+      "iqr_low": -0.5,
+      "iqr_high": 11.5,
+      "iqr_outliers": 0,
+      "zscore_outliers": 0,
+      "max_abs_z": 1.979
+    },
+    {
+      "column": "TotalPrice",
+      "iqr_low": -1341.412,
+      "iqr_high": 3330.408,
+      "iqr_outliers": 8,
+      "zscore_outliers": 0,
+      "max_abs_z": 2.93
+    }
+  ],
+  "flagged_orders": [
+    {
+      "OrderID": "ORD200789",
+      "Product": "Tablet",
+      "Quantity": 5,
+      "UnitPrice": 691.28,
+      "TotalPrice": 3456.4,
+      "OrderStatus": "Delivered"
+    },
+    {
+      "OrderID": "ORD201122",
+      "Product": "Monitor",
+      "Quantity": 5,
+      "UnitPrice": 678.19,
+      "TotalPrice": 3390.95,
+      "OrderStatus": "Returned"
+    },
+    {
+      "OrderID": "ORD200632",
+      "Product": "Laptop",
+      "Quantity": 5,
+      "UnitPrice": 678.16,
+      "TotalPrice": 3390.8,
+      "OrderStatus": "Delivered"
+    },
+    {
+      "OrderID": "ORD200469",
+      "Product": "Chair",
+      "Quantity": 5,
+      "UnitPrice": 676.98,
+      "TotalPrice": 3384.9,
+      "OrderStatus": "Cancelled"
+    },
+    {
+      "OrderID": "ORD200328",
+      "Product": "Tablet",
+      "Quantity": 5,
+      "UnitPrice": 674.04,
+      "TotalPrice": 3370.2,
+      "OrderStatus": "Cancelled"
+    },
+    {
+      "OrderID": "ORD200107",
+      "Product": "Printer",
+      "Quantity": 5,
+      "UnitPrice": 670.75,
+      "TotalPrice": 3353.75,
+      "OrderStatus": "Shipped"
+    },
+    {
+      "OrderID": "ORD200326",
+      "Product": "Laptop",
+      "Quantity": 5,
+      "UnitPrice": 670.48,
+      "TotalPrice": 3352.4,
+      "OrderStatus": "Returned"
+    },
+    {
+      "OrderID": "ORD201065",
+      "Product": "Printer",
+      "Quantity": 5,
+      "UnitPrice": 666.8,
+      "TotalPrice": 3334.0,
+      "OrderStatus": "Delivered"
+    }
+  ],
+  "total_revenue": 1264761.96,
+  "trend_slope_per_month": -349.1510967741934,
+  "trend_slope_p": 0.11127556080975583,
+  "h1": [
+    {
+      "Year": 2023,
+      "orders": 252,
+      "revenue": 286501.52,
+      "aov": 1136.91,
+      "rev_change_pct": NaN,
+      "orders_change_pct": NaN
+    },
+    {
+      "Year": 2024,
+      "orders": 237,
+      "revenue": 257059.34,
+      "aov": 1084.64,
+      "rev_change_pct": -10.28,
+      "orders_change_pct": -5.95
+    },
+    {
+      "Year": 2025,
+      "orders": 231,
+      "revenue": 231882.85,
+      "aov": 1003.82,
+      "rev_change_pct": -9.79,
+      "orders_change_pct": -2.53
+    }
+  ],
+  "yearly": [
+    {
+      "Year": 2023,
+      "orders": 510,
+      "revenue": 552643.24
+    },
+    {
+      "Year": 2024,
+      "orders": 459,
+      "revenue": 480235.87
+    },
+    {
+      "Year": 2025,
+      "orders": 231,
+      "revenue": 231882.85
+    }
+  ],
+  "calendar": [
+    {
+      "MonthNum": 1,
+      "orders": 106,
+      "revenue": 124313.23,
+      "years_observed": 3.0,
+      "rev_per_year": 41437.74
+    },
+    {
+      "MonthNum": 2,
+      "orders": 106,
+      "revenue": 112344.78,
+      "years_observed": 3.04,
+      "rev_per_year": 37007.69
+    },
+    {
+      "MonthNum": 3,
+      "orders": 128,
+      "revenue": 123840.93,
+      "years_observed": 3.0,
+      "rev_per_year": 41280.31
+    },
+    {
+      "MonthNum": 4,
+      "orders": 113,
+      "revenue": 109186.05,
+      "years_observed": 3.0,
+      "rev_per_year": 36395.35
+    },
+    {
+      "MonthNum": 5,
+      "orders": 120,
+      "revenue": 135142.59,
+      "years_observed": 3.0,
+      "rev_per_year": 45047.53
+    },
+    {
+      "MonthNum": 6,
+      "orders": 147,
+      "revenue": 170616.13,
+      "years_observed": 3.0,
+      "rev_per_year": 56872.04
+    },
+    {
+      "MonthNum": 7,
+      "orders": 87,
+      "revenue": 85784.64,
+      "years_observed": 2.0,
+      "rev_per_year": 42892.32
+    },
+    {
+      "MonthNum": 8,
+      "orders": 79,
+      "revenue": 86343.21,
+      "years_observed": 2.0,
+      "rev_per_year": 43171.6
+    },
+    {
+      "MonthNum": 9,
+      "orders": 73,
+      "revenue": 69321.65,
+      "years_observed": 2.0,
+      "rev_per_year": 34660.82
+    },
+    {
+      "MonthNum": 10,
+      "orders": 78,
+      "revenue": 89834.82,
+      "years_observed": 2.0,
+      "rev_per_year": 44917.41
+    },
+    {
+      "MonthNum": 11,
+      "orders": 76,
+      "revenue": 75493.43,
+      "years_observed": 2.0,
+      "rev_per_year": 37746.71
+    },
+    {
+      "MonthNum": 12,
+      "orders": 87,
+      "revenue": 82540.5,
+      "years_observed": 2.0,
+      "rev_per_year": 41270.25
+    }
+  ],
+  "month_orders_chisq_p": 0.4054102104278862,
+  "monthly_orders_min": 27,
+  "monthly_orders_max": 53,
+  "monthly_orders_mean": 40.0,
+  "product": [
+    {
+      "Product": "Chair",
+      "orders": 178,
+      "revenue": 195620.11,
+      "mean_order": 1098.99,
+      "median_order": 928.58,
+      "revenue_share_pct": 15.47
+    },
+    {
+      "Product": "Printer",
+      "orders": 181,
+      "revenue": 195612.61,
+      "mean_order": 1080.73,
+      "median_order": 857.4,
+      "revenue_share_pct": 15.47
+    },
+    {
+      "Product": "Laptop",
+      "orders": 173,
+      "revenue": 192126.56,
+      "mean_order": 1110.56,
+      "median_order": 915.64,
+      "revenue_share_pct": 15.19
+    },
+    {
+      "Product": "Tablet",
+      "orders": 179,
+      "revenue": 186568.95,
+      "mean_order": 1042.28,
+      "median_order": 786.66,
+      "revenue_share_pct": 14.75
+    },
+    {
+      "Product": "Monitor",
+      "orders": 163,
+      "revenue": 175651.41,
+      "mean_order": 1077.62,
+      "median_order": 853.4,
+      "revenue_share_pct": 13.89
+    },
+    {
+      "Product": "Desk",
+      "orders": 170,
+      "revenue": 167459.93,
+      "mean_order": 985.06,
+      "median_order": 784.39,
+      "revenue_share_pct": 13.24
+    },
+    {
+      "Product": "Phone",
+      "orders": 156,
+      "revenue": 151722.39,
+      "mean_order": 972.58,
+      "median_order": 691.71,
+      "revenue_share_pct": 12.0
+    }
+  ],
+  "status": [
+    {
+      "OrderStatus": "Cancelled",
+      "orders": 250,
+      "revenue": 276396.21,
+      "mean_order": 1105.58,
+      "median_order": 875.48,
+      "revenue_share_pct": 21.85
+    },
+    {
+      "OrderStatus": "Pending",
+      "orders": 237,
+      "revenue": 256328.15,
+      "mean_order": 1081.55,
+      "median_order": 869.8,
+      "revenue_share_pct": 20.27
+    },
+    {
+      "OrderStatus": "Shipped",
+      "orders": 235,
+      "revenue": 246159.58,
+      "mean_order": 1047.49,
+      "median_order": 816.64,
+      "revenue_share_pct": 19.46
+    },
+    {
+      "OrderStatus": "Returned",
+      "orders": 247,
+      "revenue": 243277.7,
+      "mean_order": 984.93,
+      "median_order": 754.44,
+      "revenue_share_pct": 19.24
+    },
+    {
+      "OrderStatus": "Delivered",
+      "orders": 231,
+      "revenue": 242600.32,
+      "mean_order": 1050.22,
+      "median_order": 789.57,
+      "revenue_share_pct": 19.18
+    }
+  ],
+  "coupon": [
+    {
+      "CouponCode": "FREESHIP",
+      "orders": 313,
+      "revenue": 335036.99,
+      "mean_order": 1070.41,
+      "median_order": 793.4,
+      "revenue_share_pct": 26.49
+    },
+    {
+      "CouponCode": "None",
+      "orders": 309,
+      "revenue": 322401.41,
+      "mean_order": 1043.37,
+      "median_order": 834.12,
+      "revenue_share_pct": 25.49
+    },
+    {
+      "CouponCode": "SAVE10",
+      "orders": 286,
+      "revenue": 304840.02,
+      "mean_order": 1065.87,
+      "median_order": 823.06,
+      "revenue_share_pct": 24.1
+    },
+    {
+      "CouponCode": "WINTER15",
+      "orders": 292,
+      "revenue": 302483.54,
+      "mean_order": 1035.9,
+      "median_order": 838.71,
+      "revenue_share_pct": 23.92
+    }
+  ],
+  "referral": [
+    {
+      "ReferralSource": "Instagram",
+      "orders": 259,
+      "revenue": 275285.45,
+      "mean_order": 1062.88,
+      "median_order": 856.18,
+      "revenue_share_pct": 21.77
+    },
+    {
+      "ReferralSource": "Email",
+      "orders": 250,
+      "revenue": 261808.55,
+      "mean_order": 1047.23,
+      "median_order": 758.19,
+      "revenue_share_pct": 20.7
+    },
+    {
+      "ReferralSource": "Google",
+      "orders": 241,
+      "revenue": 250441.48,
+      "mean_order": 1039.18,
+      "median_order": 839.96,
+      "revenue_share_pct": 19.8
+    },
+    {
+      "ReferralSource": "Facebook",
+      "orders": 228,
+      "revenue": 250410.9,
+      "mean_order": 1098.29,
+      "median_order": 911.52,
+      "revenue_share_pct": 19.8
+    },
+    {
+      "ReferralSource": "Referral",
+      "orders": 222,
+      "revenue": 226815.58,
+      "mean_order": 1021.69,
+      "median_order": 734.58,
+      "revenue_share_pct": 17.93
+    }
+  ],
+  "payment": [
+    {
+      "PaymentMethod": "Credit Card",
+      "orders": 234,
+      "revenue": 263847.63,
+      "mean_order": 1127.55,
+      "median_order": 938.08,
+      "revenue_share_pct": 20.86
+    },
+    {
+      "PaymentMethod": "Online",
+      "orders": 258,
+      "revenue": 262442.94,
+      "mean_order": 1017.22,
+      "median_order": 780.92,
+      "revenue_share_pct": 20.75
+    },
+    {
+      "PaymentMethod": "Cash",
+      "orders": 246,
+      "revenue": 259786.29,
+      "mean_order": 1056.04,
+      "median_order": 796.66,
+      "revenue_share_pct": 20.54
+    },
+    {
+      "PaymentMethod": "Gift Card",
+      "orders": 230,
+      "revenue": 246323.92,
+      "mean_order": 1070.97,
+      "median_order": 745.05,
+      "revenue_share_pct": 19.48
+    },
+    {
+      "PaymentMethod": "Debit Card",
+      "orders": 232,
+      "revenue": 232361.18,
+      "mean_order": 1001.56,
+      "median_order": 806.24,
+      "revenue_share_pct": 18.37
+    }
+  ],
+  "tests": {
+    "kruskal_TotalPrice_by_Product_p": 0.8203023999640466,
+    "kruskal_TotalPrice_by_CouponCode_p": 0.9096892625789114,
+    "kruskal_TotalPrice_by_ReferralSource_p": 0.8914713959404281,
+    "kruskal_TotalPrice_by_PaymentMethod_p": 0.4496671304746267,
+    "chisq_status_uniform_p": 0.8942722060897543,
+    "anova_UnitPrice_by_Product_p": 0.5093116362621943
+  },
+  "risk_orders": 497,
+  "risk_revenue": 519673.91000000003,
+  "delivered_orders": 231,
+  "delivered_revenue": 242600.32,
+  "repeat_customers": 11,
+  "max_orders_one_customer": 2,
+  "price_by_product": [
+    {
+      "Product": "Chair",
+      "min": 14.93,
+      "max": 695.29,
+      "mean": 355.66
+    },
+    {
+      "Product": "Desk",
+      "min": 26.95,
+      "max": 697.93,
+      "mean": 329.61
+    },
+    {
+      "Product": "Laptop",
+      "min": 18.2,
+      "max": 699.93,
+      "mean": 357.71
+    },
+    {
+      "Product": "Monitor",
+      "min": 14.69,
+      "max": 696.71,
+      "mean": 358.66
+    },
+    {
+      "Product": "Phone",
+      "min": 11.39,
+      "max": 695.1,
+      "mean": 375.22
+    },
+    {
+      "Product": "Printer",
+      "min": 12.1,
+      "max": 697.19,
+      "mean": 351.71
+    },
+    {
+      "Product": "Tablet",
+      "min": 17.24,
+      "max": 699.88,
+      "mean": 367.68
+    }
+  ],
+  "corr": {
+    "Quantity": {
+      "Quantity": 1.0,
+      "UnitPrice": 0.015,
+      "ItemsInCart": 0.65,
+      "TotalPrice": 0.615
+    },
+    "UnitPrice": {
+      "Quantity": 0.015,
+      "UnitPrice": 1.0,
+      "ItemsInCart": 0.001,
+      "TotalPrice": 0.717
+    },
+    "ItemsInCart": {
+      "Quantity": 0.65,
+      "UnitPrice": 0.001,
+      "ItemsInCart": 1.0,
+      "TotalPrice": 0.393
+    },
+    "TotalPrice": {
+      "Quantity": 0.615,
+      "UnitPrice": 0.717,
+      "ItemsInCart": 0.393,
+      "TotalPrice": 1.0
+    }
+  }
+}
